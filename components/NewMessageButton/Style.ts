@@ -3,8 +3,15 @@ import Colors from '../../constants/Colors';
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: 'row',
-        margin: 10
+        backgroundColor: Colors.light.tint,
+        width: 50,
+        height: 50,
+        borderRadius: 50,
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'absolute',
+        bottom: 20,
+        right: 20
     },
     
 });
