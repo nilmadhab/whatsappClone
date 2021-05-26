@@ -18,6 +18,7 @@ import ChatRoomScreen from '../screens/ChatRoomScreen';
 import { RootStackParamList } from '../types';
 import MainTabNavigator from './MainTabNavigator';
 import LinkingConfiguration from './LinkingConfiguration';
+import ContactsScreen from '../screens/ContactsScreen';
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -71,6 +72,8 @@ function RootNavigator() {
             </View>
           )
         })} />
+        <Stack.Screen name="Contacts" component={ContactsScreen} options={{ title: 'Contacts' }} />
+
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
     </Stack.Navigator>
   );

@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import ChatListItem from '../components/ChatListItems';
 
-import EditScreenInfo from '../components/EditScreenInfo';
 import NewMessageButton from '../components/NewMessageButton';
 import { Text, View } from '../components/Themed';
 
